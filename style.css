@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: ivory;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color:teal;
+    border-bottom: 2px solid #ccc;
+    padding: 10px 20px;
+}
+
+header span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #ccc;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: orange;
+}
+
+.logo {
+    color: teal;
+}
+
+.nav-container {
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+hr {
+    border: 1px solid wheat;
+}
+
+input[type="search"] {
+    background-color: whitesmoke;
+    border: 1px solid wheat;
+}
+
+header h1 {
+    color: teal;
+}
+
+.tittle h4 {
+    color: teal;
+}
+
+.description {
+    color: black;
+}
+
+.contact h4 {
+    color: teal;
+}
+
+.job-buttons button a {
+    color: teal;
+    text-decoration: none;
+}
+
+.job-buttons button:hover {
+    background-color: orange;
+}
+
+.logo-area button {
+    color: white;
+    text-decoration: none;
+}
+
+.sponsor-btn {
+    background-color: orange;
+    color: teal;
+    padding: 10px 20px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+}
+
+.sponsor-btn::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 10px solid orange;
+}
+
+.opportunities h2 {
+    color: teal;
+}
+
+.opportunities a {
+    color: orange;
+}
+
+.application h3 {
+    color: teal;
+}
+
+.history h3 {
+    color: teal;
+}
+
+.mission h3 {
+    color: teal;
+}
+
+.vision h3 {
+    color: teal;
+}
+
+.team article h3 {
+    color: teal;
+}
+
+.team article h4 {
+    color: teal;
+}
+
+.team article img {
+    border: 3px solid paleturquoise;
+    width: 150px;
+    height: auto;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+.sponsor-logos h3 {
+    color: teal;
+}
+
+.sponsor-form h3 {
+    color: teal;
+}
+
+.logos img {
+    border: 2px solid wheat;
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.logos div {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.logos img {
+    width: 20%;
+    height: auto;
+}
+
+.enquiry-form h3 {
+    color: teal;
+}
+
+.enquiry-info h3 {
+    color: teal;
+}
+
+input, textarea, select {
+    border: 1px solid wheat;
+    background-color: white;
+    color: black;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border: 2px solid teal;
+}
+
+button[type="submit"] {
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+}
+
+button[type="submit"]:hover {
+    background-color: teal;
+}
+
+.contact-info a {
+    color: teal;
+}
+
+.contact-info iframe {
+    border: 3px solid paleturquoise;
+}
+
+footer {
+    background-color: teal;
+    color: white;
+    text-align: center;
+    border-top: 4px solid orange;
+}
+
+main {
+    margin-bottom: 300px;
+}
+
+footer small {
+    color: white;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    .logo-area img {
+        max-width: 100%;
+        height: auto;
+    }
+    nav {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+
+/* 3.1 Breakpoints */
+@media (max-width: 1024px) {
+    nav {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+    nav {
+        flex-direction: column;
+    }
+    button {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    .logo-area img {
+        max-width: 450px;
+        height: auto;
+    }
+}
+
+body {
+    font-size: 1rem; /* base size */
+}
+
+p {
+    margin-bottom: 1em; /* spacing relative to font size */
+}
+
+img {
+    max-width: 450px; /* responsive width */
+    height: auto;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
