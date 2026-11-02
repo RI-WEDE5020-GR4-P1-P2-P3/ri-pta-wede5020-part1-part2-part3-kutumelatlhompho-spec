@@ -18,3 +18,14 @@ Backlinks:  The website could gain backlinks from employment organizations and p
 Social Media:  I added an Instagram on where to hear more about the organization
 1. Added the local SEO paragraph on the about page
 
+For 3.3
+1. Added a Robot.txt file....need to add GitHub link later
+2.Added sitemap...also add the links to the website
+
+For 4.1 
+1. Created an enquiry class that shows different forms from the ones on the contact page
+2. Added a label for phone number on the contact page
+3. JavaScript forms validations on both the contact and enquiry pages
+4. message responses and  error messages
+5. Form Submissions
+6. AJAX Submission to the contact page, where it has a "mailto"
