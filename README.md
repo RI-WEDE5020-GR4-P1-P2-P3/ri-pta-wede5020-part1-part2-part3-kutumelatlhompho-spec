@@ -29,3 +29,14 @@ For 4.1
 4. message responses and  error messages
 5. Form Submissions
 6. AJAX Submission to the contact page, where it has a "mailto"
+
+# References
+1. Google Maps, 2026. Google Maps. [online] Available at:
+   https://maps.google.com/ [Accessed 27 October 2026]
+2. Stemaps.org, 2026. XML Sitemap Protocol. [online] Available at:
+  https://www.sitemaps.org/protocol.html [Accessed 31 October 2026]
+3. MDN Web Docs, 2026. HTML:HyperText Markup Language [online] Available at:
+   https://developer.mozilla.org/en-US/docs/Web/HTML [Accessed 31 October]
+4. W3Schools, 2026. HTML Tutorial. [online] Available at
+   https://www.w3schools.com/html/ [Accessed 27 October]
+
