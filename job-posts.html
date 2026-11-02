@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Posts</title>
+    <meta name="description" content="Browse internships, learnerships and graduate opportunities available through Youth Empowerment Network.">
+    <title>Job Opportunities | Youth Empowerment Network</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,6 +18,7 @@
              <a href="sponsors.html">Sponsor Us</a>&nbsp;&nbsp;&nbsp;&nbsp;
              <a href="about.html">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
              <a href="contact.html">Contact Us</a>&nbsp;&nbsp;
+             <a href="enquiry.html">Enquiries</a>
              <hr>
         </nav>
         <h1>Job Posts</h1>
@@ -25,6 +27,14 @@
 
     <!--Main Content-->
     <main>
+        
+        <section class="dynamic-jobs">
+            <h2>Available Opportunities</h2>
+            <input type="text" id="searchJobs" placeholder="Search Opportunities">
+            <br><br>
+            <div id="jobList"></div>
+        </section>
+
          <!--Opportunities Section-->
         <section class="opportunities">
             <h2>Latest Opportunities</h2>
@@ -32,7 +42,6 @@
                 <li>Internship: Junior Web Developer - Closing Date: 30 August 2026</li>
                 <li>Learnership: Business Administration - Closing date: 15 September 2026</li>
                 <li>Graduate Programme: Marketing Assistant - Closing Date: 23 September 2026</li>
-                <a href=" "> view more </a>
             </ul>
         </section>
         <section>
@@ -66,5 +75,6 @@
     <footer>
         <p> <small>&copy; 2026 Youth Empowerment Network - Empowering Youth for a Brighter futore</small></p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

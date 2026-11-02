@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0,9">
+
+<url>
+<loc>http://websiteurl.com/index.html</loc>
+</url>
+
+<url>
+<loc>http://websiteurl.com/about.html</loc>
+</url>
+
+<url>
+<loc>http://websiteurl.com/applications.html</loc>
+</url>
+
+<url>
+<loc>http://websiteurl.com/job-posts.html</loc>
+</url>
+
+<url>
+<loc>http://websiteurl.com/sponsors.html</loc>
+</url>
+ 
+ <url>
+<loc>http://websiteurl.com/contact.html</loc>
+</url>
+
+</urlset>

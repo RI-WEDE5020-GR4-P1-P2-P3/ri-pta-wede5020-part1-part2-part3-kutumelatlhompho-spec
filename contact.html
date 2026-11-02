@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Contact Us | Youth Empowerment Network</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--Header-->
+    
+     <!--Header-->
     <header>
         <div class="logo"> 
          <nav style="display: inline"> 
@@ -17,50 +18,60 @@
              <a href="sponsors.html">Sponsor Us</a>&nbsp;&nbsp;&nbsp;&nbsp;
              <a href="about.html">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
              <a href="contact.html">Contact Us</a>&nbsp;&nbsp;
+             <a href="enquiry.html">Enquiries</a>
              <hr>
         </nav>
-        <h1>Enquiries</h1>
+        <h1>Contact Us</h1>
         </div>
     </header>
 
     <!--Main Content-->
     <main>
-        <!--Enquiry Form-->
-        <section class="enquiry-form">
-            <h3>Send Us a Message</h3>
-            <form action=" " method="post">
-                <p>How can we be of service? <select>
-                    <option>Select an answer</option>
-                    <option>I want to be a sponsor</option>
-                    <option>I am a Job seeker</option>
-                    <option>I want to post an job oportunity</option>
-                </select>
-                </p>
+        <!--Contact Form-->
+        <section class="contactForm">
+            <h3>Contact Form</h3>
+            <form id="contactForm" action="#" method="post">
                 <label for="fullname">Full Name: </label>
-                <input type="text" id="fullname" name="fullname" required>
+                <input type="text" id="fullname" name="fullname">
                 <br><br>
+
                 <label for="email">Email Address: </label>
                 <input type="email" id="email" name="email" required>
                 <br><br>
-                <label for="subject">Subject: </label>
-                <input type="text" id="subject" name="subject" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}">
                 <br><br>
+
+                <label for="messageType">Message Type:</label>
+                <select id="messageType"> 
+                    <option>General Question</option>
+                    <option>Complaint</option>
+                    <option>Support Request</option>
+                    <option>Feedback</option>
+                </select>
+                <br><br>
+
                 <label for="message">Message: </label>
-                <textarea id="message" name="message" rows="5" placeholder="Write your enquiry here..." required></textarea>
+                <textarea id="message" name="message" rows="5" placeholder="Enter your message here..." required minlength="20"></textarea>
                 <br><br>
-                <button type="submit">Submit Enquiry</button>
+                
+                <div id="contactSuccess"></div>
+                <div id="contactError"></div>
+                <button type="submit">Submit</button>
             </form>
         </section>
 
         <!--Contact information-->
-        <selection class="contact-info">
+        <section class="contact-info">
             <h3>Our Contact Details</h3>
             <address>
-                <p>Email: <a href="mailto:info@youthempowermentnetwork.org">info@yothempowermentnetwork.org</a></p>
+                <p>Email: <a href="mailto:info@youthempowermentnetwork.org">info@youthempowermentnetwork.org</a></p>
                 <p>Phone: <a href="tel:0825621457">082 562 1457</a></p>
+                <h3>Visit Our Office For in-person Meetings And Consultations</h3>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.646396396622!2d28.0422655!3d-26.14307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950d1decc29b05%3A0x14b4f9b6ca123c40!2sYouth%20Employment%20Service!5e0!3m2!1sen!2sza!4v1786718123892!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
             </address>
-        </selection>
+        </section>
         
     </main>
 
@@ -68,6 +79,6 @@
     <footer>
         <p> <small> &copy; 2026 Youth Empowerment Network - Empowering Youth for a Brighter futore</small></p>
     </footer>
-
+    <script src="script.js"></script>
 </body>
 </html>
